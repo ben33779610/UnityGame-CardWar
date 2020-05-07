@@ -1,15 +1,18 @@
 using UnityEngine;
 using UnityEditor;
-[CustomEditor(typeof(Scale))]
+using UnityEngine.SceneManagement;
+using Scope = UnityEngine.GUI.Scope;
+
+[CustomEditor(typeof(Scope))]
 public class ScaleEditor : Editor
 {
  public override void OnInspectorGUI()
  {
-        Scale scaleBeingInspected = target as Scale;
+       // Scope scaleBeingInspected = target as Scene;
         base.OnInspectorGUI();
         if (GUILayout.Button("Update Scale"))
         {
-           scaleBeingInspected.UpdateScale();
+           //scaleBeingInspected.UpdateScale();
         }
  }
 

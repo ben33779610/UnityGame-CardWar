@@ -1,54 +1,143 @@
 fileFormatVersion: 2
 guid: 1be28fe9dd065934097ec78f5811a960
 ModelImporter:
-  serializedVersion: 19
-  fileIDToRecycleName:
-    4300000: spine09
-    4300002: spine10
-    4300004: bone10
-    4300006: spine08
-    4300008: spine11
-    4300010: bone13
-    4300012: bone12
-    4300014: spine02
-    4300016: bone14
-    4300018: spine15
-    4300020: spine07
-    4300022: bone03
-    4300024: bone05
-    4300026: bone06
-    4300028: spine06
-    4300030: spine14
-    4300032: bone15
-    4300034: spine13
-    4300036: spine12
-    4300038: bone11
-    4300040: bone09
-    4300042: bone08
-    4300044: bone07
-    4300046: spine05
-    4300048: bone04
-    4300050: spine04
-    4300052: spine03
-    4300054: bone02
-    4300056: bone01
-    4300058: spine01
-    4300060: bone
-    4300062: spine
-    4300064: skull04
-    4300066: skull_jaw04
-    4300068: skull03
-    4300070: skull_jaw03
-    4300072: skull01
-    4300074: skull_jaw01
-    4300076: skull
-    4300078: skull_jaw
-    4300080: skull02
-    4300082: skull_jaw02
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      43: 4300000
+    second: spine09
+  - first:
+      43: 4300002
+    second: spine10
+  - first:
+      43: 4300004
+    second: bone10
+  - first:
+      43: 4300006
+    second: spine08
+  - first:
+      43: 4300008
+    second: spine11
+  - first:
+      43: 4300010
+    second: bone13
+  - first:
+      43: 4300012
+    second: bone12
+  - first:
+      43: 4300014
+    second: spine02
+  - first:
+      43: 4300016
+    second: bone14
+  - first:
+      43: 4300018
+    second: spine15
+  - first:
+      43: 4300020
+    second: spine07
+  - first:
+      43: 4300022
+    second: bone03
+  - first:
+      43: 4300024
+    second: bone05
+  - first:
+      43: 4300026
+    second: bone06
+  - first:
+      43: 4300028
+    second: spine06
+  - first:
+      43: 4300030
+    second: spine14
+  - first:
+      43: 4300032
+    second: bone15
+  - first:
+      43: 4300034
+    second: spine13
+  - first:
+      43: 4300036
+    second: spine12
+  - first:
+      43: 4300038
+    second: bone11
+  - first:
+      43: 4300040
+    second: bone09
+  - first:
+      43: 4300042
+    second: bone08
+  - first:
+      43: 4300044
+    second: bone07
+  - first:
+      43: 4300046
+    second: spine05
+  - first:
+      43: 4300048
+    second: bone04
+  - first:
+      43: 4300050
+    second: spine04
+  - first:
+      43: 4300052
+    second: spine03
+  - first:
+      43: 4300054
+    second: bone02
+  - first:
+      43: 4300056
+    second: bone01
+  - first:
+      43: 4300058
+    second: spine01
+  - first:
+      43: 4300060
+    second: bone
+  - first:
+      43: 4300062
+    second: spine
+  - first:
+      43: 4300064
+    second: skull04
+  - first:
+      43: 4300066
+    second: skull_jaw04
+  - first:
+      43: 4300068
+    second: skull03
+  - first:
+      43: 4300070
+    second: skull_jaw03
+  - first:
+      43: 4300072
+    second: skull01
+  - first:
+      43: 4300074
+    second: skull_jaw01
+  - first:
+      43: 4300076
+    second: skull
+  - first:
+      43: 4300078
+    second: skull_jaw
+  - first:
+      43: 4300080
+    second: skull02
+  - first:
+      43: 4300082
+    second: skull_jaw02
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 3
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -61,12 +150,15 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -74,13 +166,23 @@ ModelImporter:
     globalScale: 0.01
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -90,10 +192,14 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -103,14 +209,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 0.01
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 1
   humanoidOversampling: 1
+  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
